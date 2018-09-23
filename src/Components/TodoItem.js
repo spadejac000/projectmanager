@@ -6,7 +6,7 @@ class TodoItem extends Component {
   render() {
     return (
       <li className="Todo">
-        <strong>{this.props.todo.id}</strong>
+        <strong>{this.props.todo.title}</strong>
       </li>
     );
   }

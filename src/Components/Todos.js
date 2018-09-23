@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 class Todos extends Component {
   render() {
-    let TodoItems;
+    let todoItems;
     if(this.props.todos) {
       todoItems = this.props.todos.map(todo => {
         // console.log(project);
